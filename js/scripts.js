@@ -7,6 +7,7 @@ var BankAccount = {
   },
   withdraw: function(amount) {
       this.balance = this.balance - amount;
+
   }
 };
 
